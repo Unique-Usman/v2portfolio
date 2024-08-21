@@ -49,7 +49,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Qudusayo - Projects</title>
+        <title>Unique-Usman - Projects</title>
         <meta
           name="description"
           content="Check out what I've been working on."

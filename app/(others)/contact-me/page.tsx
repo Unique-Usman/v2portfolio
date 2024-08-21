@@ -62,8 +62,8 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact - Qudusayo</title>
-        <meta name="description" content="Send Qudusayo a message" />
+        <title>Contact - Unique-Usman</title>
+        <meta name="description" content="Send Unique-Usman a message" />
       </Head>
       <div>
         <BoxLayout
@@ -74,13 +74,13 @@ export default function Contact() {
                 {
                   title: "contacts",
                   content: [
-                    <a key={0} href="mailto:qqudusayo@gmail.com">
+                    <a key={0} href="mailto:usmanakinyemi202@gmail.com">
                       <IoMail fill="#607b96" />
-                      <span>qqudusayo@gmail.com</span>
+                      <span>usmanakinyemi202@gmail.com</span>
                     </a>,
-                    <a key={1} href="tel:+2347016412041">
+                    <a key={1} href="tel:+2349045959464">
                       <IoCall fill="#607b96" />
-                      <span>+(234)701-6412-041</span>
+                      <span>+(234)904-5959-464</span>
                     </a>,
                   ],
                 },
@@ -121,7 +121,7 @@ export default function Contact() {
                   <div className={styles.ContactFormBlock}>
                     <label>_name:</label>
                     <input
-                      placeholder="Ayoola Abdulqudus"
+                      placeholder="Unique Usman"
                       name="name"
                       value={formEntries.name}
                       onChange={formEntriesHandler}
@@ -130,7 +130,7 @@ export default function Contact() {
                   <div className={styles.ContactFormBlock}>
                     <label>_email:</label>
                     <input
-                      placeholder="qqudusayo@gmail.com"
+                      placeholder="usmanakinyemi202@gmail.com"
                       name="email"
                       value={formEntries.email}
                       onChange={formEntriesHandler}

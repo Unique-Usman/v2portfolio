@@ -1,14 +1,16 @@
 "use client";
 import Head from "../extras/head";
+import { TypeAnimation } from "react-type-animation";
+import Modal from "@/components/Modal/Modal";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Qudusayo</title>
+        <title>Unique-Usman</title>
         <meta
           name="description"
-          content="Hello there, I'm Qudusayo. I'm a full-stack developer."
+          content="Hello there, I'm Unique-Usman. I'm a Computer Programmer."
         />
       </Head>
       <main
@@ -18,9 +20,24 @@ export default function Home() {
         <div className="m-auto w-3/4 md:w-11/12">
           <div className="text-[#e5e9f0]">
             <span className="md:text-sm">Hi all. I am</span>
-            <h1 className=" text-[4em] my-0.5 -mt-1.5">Qudusayo</h1>
+            <h1 className=" text-[4em] my-0.5 -mt-1.5">Unique-Usman</h1>
             <h2 className="text-[#4d5bce] text-2xl">
-              &gt; Full-stack developer
+               &gt; <TypeAnimation
+                sequence={[
+                  'I am a Computer Programmer', // initially rendered starting point
+                  500,
+                  'I use Arch and neovim btw',
+                  500,
+                  'I am learning Pytorch',
+                  500,
+                  'I am studying CSAI',
+                  500
+                ]}
+                speed={20}
+                style={{ fontSize: '1.5rem' }}
+                repeat={Infinity}
+                deletionSpeed={60}
+              /> 
             </h2>
           </div>
 
@@ -35,10 +52,10 @@ export default function Home() {
                 &quot;
                 <a
                   target="_blank"
-                  href="https://github.com/qudusayo"
+                  href="https://github.com/Unique-Usman"
                   rel="noreferrer"
                 >
-                  https://github.com/qudusayo
+                  https://github.com/Unique-Usman
                 </a>
                 &quot;
               </span>

@@ -15,8 +15,8 @@ export default function Footer() {
       </div>
       <div>
         <a
-          aria-label="Qudusayo linkedin profile"
-          href="https://www.linkedin.com/in/qudusayo/"
+          aria-label="Unique-Usman linkedin profile"
+          href="https://www.linkedin.com/in/usman-akinyemi-1689711b3/"
           target="_blank"
           rel="noreferrer"
         >
@@ -25,8 +25,8 @@ export default function Footer() {
       </div>
       <div>
         <a
-          aria-label="Qudusayo twitter profile"
-          href="https://twitter.com/qudusayo"
+          aria-label="Unique-Usman twitter profile"
+          href="https://x.com/usman_akinyemi"
           target="_blank"
           rel="noreferrer"
         >
@@ -35,8 +35,8 @@ export default function Footer() {
       </div>
       <div>
         <a
-          aria-label="Qudusayo github profile"
-          href="https://github.com/qudusayo/"
+          aria-label="Unique-Usman github profile"
+          href="https://github.com/Unique-Usman/"
           target="_blank"
           rel="noreferrer"
         >

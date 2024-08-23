@@ -1,7 +1,6 @@
-"use client";
 import Head from "../extras/head";
-import { TypeAnimation } from "react-type-animation";
 import Modal from "@/components/Modal/Modal";
+import Animation from "@/components/Animation/Animation";
 
 export default function Home() {
   return (
@@ -22,22 +21,7 @@ export default function Home() {
             <span className="md:text-sm">Hi all. I am</span>
             <h1 className=" text-[4em] my-0.5 -mt-1.5">Unique-Usman</h1>
             <h2 className="text-[#4d5bce] text-2xl">
-               &gt; <TypeAnimation
-                sequence={[
-                  'I am a Computer Programmer', // initially rendered starting point
-                  500,
-                  'I use Arch and neovim btw',
-                  500,
-                  'I am learning Pytorch',
-                  500,
-                  'I am studying CSAI',
-                  500
-                ]}
-                speed={20}
-                style={{ fontSize: '1.5rem' }}
-                repeat={Infinity}
-                deletionSpeed={60}
-              /> 
+              &gt; <Animation />
             </h2>
           </div>
 

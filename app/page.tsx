@@ -44,6 +44,25 @@ export default function Home() {
                 &quot;
               </span>
             </p>
+            <span className="text-textColor md:text-sm">
+              {`//`} Download my resume:
+            </span>
+            <p className="text-white md:text-sm">
+              <span className="text-[#4d5bce]">const</span>{" "}
+              <span className="text-[#43d9ad]">myresume</span> ={" "}
+              <span className="text-[#e99287]">
+                &quot;
+                <a
+                  target="_blank"
+                  href="myresume.pdf"
+                  rel="noreferrer"
+                >
+                  myresume.pdf
+                </a>
+                &quot;
+              </span>
+            </p>
+
           </div>
         </div>
       </main>

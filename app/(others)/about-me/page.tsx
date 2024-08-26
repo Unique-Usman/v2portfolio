@@ -50,7 +50,7 @@ export default function About() {
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>and then tackled real-world problems head-on.</code>
+                  <code>and then tackled real-world problems.</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
@@ -83,6 +83,10 @@ export default function About() {
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
                   <code>I quickly master new tools and excel in collaborative work.</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>Let’s connect to collaborate or share insights!</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>

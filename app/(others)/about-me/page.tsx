@@ -34,47 +34,55 @@ export default function About() {
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>I&apos;m Ayoola Abdulqudus,</code>
+                  <code>I&apos;m Unique-Usman,</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>a Frontend Developer. Right now </code>
+                  <code>a Computer Programmer. Inspired by</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>I&apos;m working as a Freelancer focused on </code>
+                  <code>entrepreneurs who followed a distinct pattern:</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>Frontend Development. I know my ways on </code>
+                  <code>they began as software engineers</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>Back-end but what I really like doing </code>
+                  <code>and then tackled real-world problems head-on.</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>the most is Front-end development. </code>
+                  <code>But now Computer Programming is a deep-seated passion. </code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>Currently, my main area of focus has been </code>
+                  <code>I believe Programming languages and framework</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>NextJs for full stack development.</code>
+                  <code>are just means to solve problems. The focus</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>Besides that, my skills include </code>
+                  <code>should always be on the solution, not the tools.</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>HTML, CSS, Javascript, MongoDB, EVM </code>
+                  <code>I change from being a Software engineer to Computer Programmer</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>and some basic back-end (Node). </code>
+                  <code>because, I do not want to limit myself to softwares.</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>So far it is programming, I am ready to learn.</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>I quickly master new tools and excel in collaborative work.</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
@@ -141,13 +149,13 @@ const FlexSideBar = () => {
             {
               title: "contacts",
               content: [
-                <a key={0} href="mailto:qqudusayo@gmail.com">
+                <a key={0} href="mailto:usmankinyemi202@gmail.com">
                   <IoMail fill="#607b96" />
-                  <span>qqudusayo@gmail.com</span>
+                  <span>usmankinyemi202@gmail.com</span>
                 </a>,
-                <a key={1} href="tel:+2347016412041">
+                <a key={1} href="tel:+2349045959464">
                   <IoCall fill="#607b96" />
-                  <span>+(234)701-6412-041</span>
+                  <span>+(234)904-5959-464</span>
                 </a>,
               ],
             },

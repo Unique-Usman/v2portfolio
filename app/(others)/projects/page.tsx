@@ -7,9 +7,11 @@ import {
   SiTypescript,
   SiReact,
   SiHtml5,
-  SiEthereum,
-  SiNodedotjs,
+  SiCss3,
   SiOpensourceinitiative,
+  SiJavascript,
+  SiC,
+  SiCplusplus,
 } from "react-icons/si";
 import Card from "@/components/Card/Card";
 
@@ -84,12 +86,20 @@ export default function Projects() {
                       name: "Typescript",
                     },
                     {
-                      icon: <SiNodedotjs size={20} />,
-                      name: "NodeJs",
+                      icon: <SiJavascript size={20} />,
+                      name: "JavaScript",
                     },
                     {
-                      icon: <SiEthereum size={20} />,
-                      name: "Blockchain",
+                      icon: <SiCss3 size={20} />,
+                      name: "CSS3",
+                    },
+                    {
+                      icon: <SiC size={20} />,
+                      name: "C",
+                    },
+                    {
+                      icon: <SiCplusplus size={20} />,
+                      name: "C++",
                     },
                   ].map((stack, index) => (
                     <div key={index}>

@@ -89,7 +89,7 @@ export default function Contact() {
                   content: [
                     <a
                       key={0}
-                      href="http://discordapp.com/users/712416046317043762"
+                      href="http://discordapp.com/users/927283592072147054"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -98,13 +98,23 @@ export default function Contact() {
                     </a>,
                     <a
                       key={1}
-                      href="https://stackoverflow.com/users/11659301/qudusayo"
+                      href="https://www.youtube.com/@usmanakinyemi6054"
                       target="_blank"
                       rel="noreferrer"
                     >
                       <IoOpenOutline fill="#607b96" />
-                      <span>Stackoverflow Profile</span>
+                      <span>Youtube Profile</span>
                     </a>,
+                    <a
+                      key={2}
+                      href="https://hashnode.com/@UniqueUsman"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <IoOpenOutline fill="#607b96" />
+                      <span>Hashnode Profile</span>
+                    </a>,
+
                   ],
                 },
               ]}

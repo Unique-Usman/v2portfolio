@@ -27,24 +27,6 @@ export default function Home() {
 
           <div className=" mt-20">
             <span className="text-textColor md:text-sm">
-              {`//`} find my profile on Github:
-            </span>
-            <p className="text-white md:text-sm">
-              <span className="text-[#4d5bce]">const</span>{" "}
-              <span className="text-[#43d9ad]">githubLink</span> ={" "}
-              <span className="text-[#e99287]">
-                &quot;
-                <a
-                  target="_blank"
-                  href="https://github.com/Unique-Usman"
-                  rel="noreferrer"
-                >
-                  https://github.com/Unique-Usman
-                </a>
-                &quot;
-              </span>
-            </p>
-            <span className="text-textColor md:text-sm">
               {`//`} Download my resume:
             </span>
             <p className="text-white md:text-sm">

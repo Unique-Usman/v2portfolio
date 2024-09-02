@@ -16,6 +16,8 @@ import {
   SiFlask,
   SiLangchain,
   SiNginx,
+  SiLinux,
+  SiGnubash,
 } from "react-icons/si";
 import Card from "@/components/Card/Card";
 
@@ -79,7 +81,7 @@ export default function Projects() {
                     },
                     {
                       icon: <SiOpensourceinitiative size={20} />,
-                      name: "Contribution",
+                      name: "OpenSource Contributions",
                     },
                     {
                       icon: <SiNextdotjs size={20} />,
@@ -120,6 +122,14 @@ export default function Projects() {
                     {
                       icon: <SiNginx size={20} />,
                       name: "Nginx",
+                    },
+                    {
+                      icon: <SiGnubash size={20} />,
+                      name: "Bash Scripting",
+                    },
+                    {
+                      icon: <SiLinux size={20} />,
+                      name: "Linux",
                     },
                   ].map((stack, index) => (
                     <div key={index}>

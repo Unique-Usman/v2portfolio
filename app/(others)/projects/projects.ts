@@ -18,6 +18,14 @@ const projects: ProjectTypes[] = [
     category: ["JavaScript", "HTML5", "CSS3"],
     description: "Official Website for DesignIT Africa",
   },
+  {
+    name: "SuperVaani",
+    mainType: "typescript",
+    previewImg: "/projects/supervaani.png",
+    category: ["JavaScript", "HTML3", "CSS3", "Python", "Flask", "Nginx", "Haproxy", "LangChain"],
+    previewLink: "",
+    description: "A FullStack RAG Application for my College"
+  }
 ];
 
 export default projects;

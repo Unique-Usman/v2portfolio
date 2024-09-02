@@ -12,6 +12,10 @@ import {
   SiJavascript,
   SiC,
   SiCplusplus,
+  SiPython,
+  SiFlask,
+  SiLangchain,
+  SiNginx,
 } from "react-icons/si";
 import Card from "@/components/Card/Card";
 
@@ -100,6 +104,22 @@ export default function Projects() {
                     {
                       icon: <SiCplusplus size={20} />,
                       name: "C++",
+                    },
+                    {
+                      icon: <SiPython size={20} />,
+                      name: "Python",
+                    },
+                    {
+                      icon: <SiFlask size={20} />,
+                      name: "Flask",
+                    },
+                    {
+                      icon: <SiLangchain size={20} />,
+                      name: "LangChain",
+                    },
+                    {
+                      icon: <SiNginx size={20} />,
+                      name: "Nginx",
                     },
                   ].map((stack, index) => (
                     <div key={index}>

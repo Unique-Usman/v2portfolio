@@ -4,6 +4,6 @@ export interface ProjectTypes {
   category: string[];
   previewImg: string;
   githubUrl?: string;
-  previewLink: string;
+  previewLink?: string;
   description: string;
 }

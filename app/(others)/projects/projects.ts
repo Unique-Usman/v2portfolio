@@ -25,14 +25,14 @@ const projects: ProjectTypes[] = [
     category: ["JavaScript", "HTML3", "CSS3", "Python", "Flask", "Nginx", "Haproxy", "LangChain"],
     description: "A FullStack RAG Application for my College"
   },
-    {
+  {
     name: "Systemd",
     mainType: "C",
     previewImg: "/projects/systemd.png",
     category: ["C", "Linux", "Bash Scripting", "OpenSource Contributions"],
     githubUrl : "https://github.com/systemd/systemd/pulls?q=is%3Apr+author%3AUnique-Usman",
     description: "The systemd System and Service Manager"
-  }
+  },
 ];
 
 export default projects;

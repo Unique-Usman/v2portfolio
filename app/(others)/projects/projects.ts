@@ -4,7 +4,7 @@ const projects: ProjectTypes[] = [
   {
     name: "Portfolio",
     mainType: "typescript",
-    previewLink: "https://uniqueusman.tech",
+    previewLink: "https://v2portfolio-uniqueusmans-projects.vercel.app/",
     previewImg: "/projects/portfolio.png",
     category: ["Typescript", "NextJs"],
     description: "My current portfolio website.",
@@ -13,7 +13,7 @@ const projects: ProjectTypes[] = [
   {
     name: "DesignIT Africa",
     mainType: "JavaScript",
-    previewLink: "https://designit1.netlify.app",
+    previewLink: "https://www.designitafrica.org/",
     previewImg: "/projects/designitafrica.png",
     category: ["JavaScript", "HTML5", "CSS3"],
     description: "Official Website for DesignIT Africa",
@@ -28,6 +28,7 @@ const projects: ProjectTypes[] = [
   {
     name: "Systemd",
     mainType: "C",
+    previewLink: "https://github.com/systemd/systemd/pulls?q=is%3Apr+author%3AUnique-Usman",
     previewImg: "/projects/systemd.png",
     category: ["C", "Linux", "Bash Scripting", "OpenSource Contributions"],
     githubUrl : "https://github.com/systemd/systemd/pulls?q=is%3Apr+author%3AUnique-Usman",
